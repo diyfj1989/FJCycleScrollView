@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334DD4451DDD4CA2003F3CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334DD4441DDD4CA2003F3CAD /* AppDelegate.swift */; };
+		334DD44C1DDD4CA2003F3CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334DD44A1DDD4CA2003F3CAD /* Main.storyboard */; };
+		334DD44E1DDD4CA2003F3CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334DD44D1DDD4CA2003F3CAD /* Assets.xcassets */; };
+		334DD4511DDD4CA2003F3CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334DD44F1DDD4CA2003F3CAD /* LaunchScreen.storyboard */; };
+		334DD4591DDD4CDF003F3CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334DD4581DDD4CDF003F3CAD /* ViewController.swift */; };
+		334DD45C1DDD4F12003F3CAD /* FJCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334DD45B1DDD4F12003F3CAD /* FJCycleScrollView.swift */; };
+		334DD45E1DDD4F28003F3CAD /* FJCycleScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334DD45D1DDD4F28003F3CAD /* FJCycleScrollCell.swift */; };
+		334DD4611DDD8975003F3CAD /* FJTestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334DD4601DDD8975003F3CAD /* FJTestTableViewCell.swift */; };
+		7F12992B509819D50FE2184F /* Pods_swiftLunBoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BA9AD576B1ADC9D1B06E71 /* Pods_swiftLunBoTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03D2ED2E6D7A7CB5848DE5B1 /* Pods-swiftLunBoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLunBoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-swiftLunBoTest/Pods-swiftLunBoTest.release.xcconfig"; sourceTree = "<group>"; };
+		2135C125EBD22EADE2A8579F /* Pods-swiftLunBoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftLunBoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftLunBoTest/Pods-swiftLunBoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		334DD4411DDD4CA2003F3CAD /* swiftLunBoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftLunBoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334DD4441DDD4CA2003F3CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		334DD44B1DDD4CA2003F3CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334DD44D1DDD4CA2003F3CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		334DD4501DDD4CA2003F3CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		334DD4521DDD4CA2003F3CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334DD4581DDD4CDF003F3CAD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		334DD45B1DDD4F12003F3CAD /* FJCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJCycleScrollView.swift; sourceTree = "<group>"; };
+		334DD45D1DDD4F28003F3CAD /* FJCycleScrollCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJCycleScrollCell.swift; sourceTree = "<group>"; };
+		334DD4601DDD8975003F3CAD /* FJTestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FJTestTableViewCell.swift; sourceTree = "<group>"; };
+		BAFC0FA11F00A97500A4FCAA /* swiftLunBoTest-bridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftLunBoTest-bridging.h"; sourceTree = "<group>"; };
+		C6BA9AD576B1ADC9D1B06E71 /* Pods_swiftLunBoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftLunBoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334DD43E1DDD4CA2003F3CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F12992B509819D50FE2184F /* Pods_swiftLunBoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3E82B4A312DAE173E6650B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2135C125EBD22EADE2A8579F /* Pods-swiftLunBoTest.debug.xcconfig */,
+				03D2ED2E6D7A7CB5848DE5B1 /* Pods-swiftLunBoTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		334DD4381DDD4CA2003F3CAD = {
+			isa = PBXGroup;
+			children = (
+				334DD4431DDD4CA2003F3CAD /* swiftLunBoTest */,
+				334DD4421DDD4CA2003F3CAD /* Products */,
+				0C3E82B4A312DAE173E6650B /* Pods */,
+				68817123A98C217FDEF23DD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		334DD4421DDD4CA2003F3CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334DD4411DDD4CA2003F3CAD /* swiftLunBoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334DD4431DDD4CA2003F3CAD /* swiftLunBoTest */ = {
+			isa = PBXGroup;
+			children = (
+				334DD45A1DDD4EE7003F3CAD /* FJCycleScrollView */,
+				334DD4441DDD4CA2003F3CAD /* AppDelegate.swift */,
+				334DD4581DDD4CDF003F3CAD /* ViewController.swift */,
+				334DD4601DDD8975003F3CAD /* FJTestTableViewCell.swift */,
+				BAFC0FA11F00A97500A4FCAA /* swiftLunBoTest-bridging.h */,
+				334DD44A1DDD4CA2003F3CAD /* Main.storyboard */,
+				334DD44D1DDD4CA2003F3CAD /* Assets.xcassets */,
+				334DD44F1DDD4CA2003F3CAD /* LaunchScreen.storyboard */,
+				334DD4521DDD4CA2003F3CAD /* Info.plist */,
+			);
+			path = swiftLunBoTest;
+			sourceTree = "<group>";
+		};
+		334DD45A1DDD4EE7003F3CAD /* FJCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				334DD45B1DDD4F12003F3CAD /* FJCycleScrollView.swift */,
+				334DD45D1DDD4F28003F3CAD /* FJCycleScrollCell.swift */,
+			);
+			path = FJCycleScrollView;
+			sourceTree = "<group>";
+		};
+		68817123A98C217FDEF23DD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA9AD576B1ADC9D1B06E71 /* Pods_swiftLunBoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334DD4401DDD4CA2003F3CAD /* swiftLunBoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334DD4551DDD4CA2003F3CAD /* Build configuration list for PBXNativeTarget "swiftLunBoTest" */;
+			buildPhases = (
+				924BDF34913DAC69A766E84C /* [CP] Check Pods Manifest.lock */,
+				334DD43D1DDD4CA2003F3CAD /* Sources */,
+				334DD43E1DDD4CA2003F3CAD /* Frameworks */,
+				334DD43F1DDD4CA2003F3CAD /* Resources */,
+				6F53D36862550E11FF9EB348 /* [CP] Embed Pods Frameworks */,
+				CCDC958105FCFE46A9CCEFA6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftLunBoTest;
+			productName = swiftLunBoTest;
+			productReference = 334DD4411DDD4CA2003F3CAD /* swiftLunBoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334DD4391DDD4CA2003F3CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = hanzgrp;
+				TargetAttributes = {
+					334DD4401DDD4CA2003F3CAD = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 334DD43C1DDD4CA2003F3CAD /* Build configuration list for PBXProject "swiftLunBoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334DD4381DDD4CA2003F3CAD;
+			productRefGroup = 334DD4421DDD4CA2003F3CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334DD4401DDD4CA2003F3CAD /* swiftLunBoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334DD43F1DDD4CA2003F3CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334DD4511DDD4CA2003F3CAD /* LaunchScreen.storyboard in Resources */,
+				334DD44E1DDD4CA2003F3CAD /* Assets.xcassets in Resources */,
+				334DD44C1DDD4CA2003F3CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F53D36862550E11FF9EB348 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftLunBoTest/Pods-swiftLunBoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		924BDF34913DAC69A766E84C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCDC958105FCFE46A9CCEFA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swiftLunBoTest/Pods-swiftLunBoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334DD43D1DDD4CA2003F3CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334DD4591DDD4CDF003F3CAD /* ViewController.swift in Sources */,
+				334DD4611DDD8975003F3CAD /* FJTestTableViewCell.swift in Sources */,
+				334DD45E1DDD4F28003F3CAD /* FJCycleScrollCell.swift in Sources */,
+				334DD4451DDD4CA2003F3CAD /* AppDelegate.swift in Sources */,
+				334DD45C1DDD4F12003F3CAD /* FJCycleScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		334DD44A1DDD4CA2003F3CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334DD44B1DDD4CA2003F3CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		334DD44F1DDD4CA2003F3CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334DD4501DDD4CA2003F3CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334DD4531DDD4CA2003F3CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		334DD4541DDD4CA2003F3CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		334DD4561DDD4CA2003F3CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2135C125EBD22EADE2A8579F /* Pods-swiftLunBoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swiftLunBoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soolife.swiftLunBoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/swiftLunBoTest/swiftLunBoTest-bridging.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Debug;
+		};
+		334DD4571DDD4CA2003F3CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D2ED2E6D7A7CB5848DE5B1 /* Pods-swiftLunBoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = swiftLunBoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.soolife.swiftLunBoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/swiftLunBoTest/swiftLunBoTest-bridging.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334DD43C1DDD4CA2003F3CAD /* Build configuration list for PBXProject "swiftLunBoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334DD4531DDD4CA2003F3CAD /* Debug */,
+				334DD4541DDD4CA2003F3CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334DD4551DDD4CA2003F3CAD /* Build configuration list for PBXNativeTarget "swiftLunBoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334DD4561DDD4CA2003F3CAD /* Debug */,
+				334DD4571DDD4CA2003F3CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334DD4391DDD4CA2003F3CAD /* Project object */;
+}
